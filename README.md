@@ -1,2 +1,2 @@
 # asciidoctor-theme
-Thème webyousoon pour asciidoctor
+Thème Webyousoon pour asciidoctor
