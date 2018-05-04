@@ -44,4 +44,4 @@ gbi:
 	gitbook install
 
 gbis:
-	gitbook install && serve
+	gitbook install && gitbook serve
