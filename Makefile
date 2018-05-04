@@ -36,3 +36,12 @@ pdfdigi:
 
 rmnodemodules:
 	find . -name 'node_modules' -type d -prune -exec rm -rf '{}' +
+
+gbs:
+	gitbook serve
+
+gbi:
+	gitbook install
+
+gbis:
+	gitbook install && serve
