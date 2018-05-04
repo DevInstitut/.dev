@@ -256,6 +256,8 @@ footer:
   # * {section-or-chapter-title}
   recto:
     #columns: "<50% =0% >50%"
+    left:
+      content: 'image:images/diginamic/diginamic_logo.png[Logo, width=75]'
     right:
       #content: '{page-number}'
       content: ' {page-number}'
@@ -264,6 +266,8 @@ footer:
       content: '© Tous droits réservés à Rossi Oddet'
   verso:
     #columns: $footer_recto_columns
+    left:
+      content: $footer_recto_left_content
     right:
       #content: '{page-number}'
       content: '{page-number}'
