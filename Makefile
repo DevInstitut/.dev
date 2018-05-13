@@ -45,3 +45,6 @@ gbi:
 
 gbis:
 	gitbook install && gitbook serve
+
+pr:
+	node $(DEV_DIR)/scripts/photos/rename.js $(param1) $(param2)
